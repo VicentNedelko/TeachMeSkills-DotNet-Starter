@@ -16,10 +16,27 @@ namespace TeachMeSkills.DotNet.Task1
             }
 
             PrintArray(testArray);
+            Console.WriteLine();
             Console.WriteLine("MIN value : {0}", GetMinMaxValue(testArray).minValue);
             Console.WriteLine("MAX value : {0}", GetMinMaxValue(testArray).maxValue);
             Console.WriteLine("SUM value : {0}", GetMinMaxValue(testArray).sum);
             Console.WriteLine(String.Format("AVERAGE value : {0:00.00}", GetMinMaxValue(testArray).average));
+            Console.WriteLine();
+            Console.WriteLine("Print ODD Numbers : ");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("---------------------------------");
+            Console.ForegroundColor = ConsoleColor.White;
+            foreach (int number in testArray)
+            {
+                if (number % 2 != 0)
+                {
+                    Console.Write("[" + number + "]; ");
+                }
+            }
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("---------------------------------");
+            Console.ForegroundColor = ConsoleColor.White;
         }
 
         static void PrintArray (int[] array)
