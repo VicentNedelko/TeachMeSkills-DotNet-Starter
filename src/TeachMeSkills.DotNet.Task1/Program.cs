@@ -18,6 +18,8 @@ namespace TeachMeSkills.DotNet.Task1
             PrintArray(testArray);
             Console.WriteLine("MIN value : {0}", GetMinMaxValue(testArray).minValue);
             Console.WriteLine("MAX value : {0}", GetMinMaxValue(testArray).maxValue);
+            Console.WriteLine("SUM value : {0}", GetMinMaxValue(testArray).sum);
+            Console.WriteLine(String.Format("AVERAGE value : {0:00.00}", GetMinMaxValue(testArray).average));
         }
 
         static void PrintArray (int[] array)
@@ -36,10 +38,12 @@ namespace TeachMeSkills.DotNet.Task1
             Console.ForegroundColor = ConsoleColor.White;
         }
 
-        static (int minValue, int maxValue) GetMinMaxValue (int[] array)
+        static (int minValue, int maxValue, int sum, double average) GetMinMaxValue (int[] array)
         {
             int minValue = array[0];
             int maxValue = array[0];
+            int sumValue = 0;
+            double aver = 0.0;
             foreach (int value in array)
             {
                 if (value < minValue)
@@ -50,8 +54,10 @@ namespace TeachMeSkills.DotNet.Task1
                 {
                     maxValue = value;
                 }
+                sumValue += value;
             }
-            var result = (minValue, maxValue);
+            aver = (double)sumValue / (double)array.Length;
+            var result = (minValue, maxValue, sumValue, aver);
             return result;
         }
     }
