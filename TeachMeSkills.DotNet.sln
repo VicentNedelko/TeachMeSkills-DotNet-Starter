@@ -20,19 +20,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeachMeSkills.DotNet.Task2"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeachMeSkills.DotNet.Task3", "src\TeachMeSkills.DotNet.Task3\TeachMeSkills.DotNet.Task3.csproj", "{8272E94B-EF4F-4370-8386-E669FA2D4B44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMeSkills.DotNet.Task4", "src\TeachMeSkills.DotNet.Task4\TeachMeSkills.DotNet.Task4.csproj", "{7D7FB087-DE41-4644-B1EE-B932DC98BEE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeachMeSkills.DotNet.Task4", "src\TeachMeSkills.DotNet.Task4\TeachMeSkills.DotNet.Task4.csproj", "{7D7FB087-DE41-4644-B1EE-B932DC98BEE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMeSkills.DotNet.Task6", "src\TeachMeSkills.DotNet.Task6\TeachMeSkills.DotNet.Task6.csproj", "{7550BC5A-CE47-481A-8E18-54012FCAF0A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeachMeSkills.DotNet.Task6", "src\TeachMeSkills.DotNet.Task6\TeachMeSkills.DotNet.Task6.csproj", "{7550BC5A-CE47-481A-8E18-54012FCAF0A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMeSkills.DotNet.Task7", "src\TeachMeSkills.DotNet.Task7\TeachMeSkills.DotNet.Task7.csproj", "{2A4CE61B-2024-4DC1-9DA4-315EA5AFDD76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeachMeSkills.DotNet.Task7", "src\TeachMeSkills.DotNet.Task7\TeachMeSkills.DotNet.Task7.csproj", "{2A4CE61B-2024-4DC1-9DA4-315EA5AFDD76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMeSkills.DotNet.Task11", "src\TeachMeSkills.DotNet.Task11\TeachMeSkills.DotNet.Task11.csproj", "{9F7A3E10-FE51-4CDB-88C0-83B1AC48F25C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeachMeSkills.DotNet.Task11", "src\TeachMeSkills.DotNet.Task11\TeachMeSkills.DotNet.Task11.csproj", "{9F7A3E10-FE51-4CDB-88C0-83B1AC48F25C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMeSkills.DotNet.Task13", "src\TeachMeSkills.DotNet.Task13\TeachMeSkills.DotNet.Task13.csproj", "{D770ACCD-C2CF-49E3-BF3F-597F1297EB42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeachMeSkills.DotNet.Task13", "src\TeachMeSkills.DotNet.Task13\TeachMeSkills.DotNet.Task13.csproj", "{D770ACCD-C2CF-49E3-BF3F-597F1297EB42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMeSkills.DotNet.Task26", "src\TeachMeSkills.DotNet.Task26\TeachMeSkills.DotNet.Task26.csproj", "{47A69BB7-0B76-41B3-9FB4-36C4B6578447}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeachMeSkills.DotNet.Task26", "src\TeachMeSkills.DotNet.Task26\TeachMeSkills.DotNet.Task26.csproj", "{47A69BB7-0B76-41B3-9FB4-36C4B6578447}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMeSkills.DotNet.Task27", "src\TeachMeSkills.DotNet.Task27\TeachMeSkills.DotNet.Task27.csproj", "{BED2744F-A931-433B-B860-E6FDD531DE58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeachMeSkills.DotNet.Task27", "src\TeachMeSkills.DotNet.Task27\TeachMeSkills.DotNet.Task27.csproj", "{BED2744F-A931-433B-B860-E6FDD531DE58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMeSkills.DotNet.Task21", "src\TeachMeSkills.DotNet.Task21\TeachMeSkills.DotNet.Task21.csproj", "{FECF7AF7-DE96-4ADA-808E-6BEF6741A600}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -84,6 +86,10 @@ Global
 		{BED2744F-A931-433B-B860-E6FDD531DE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BED2744F-A931-433B-B860-E6FDD531DE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BED2744F-A931-433B-B860-E6FDD531DE58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FECF7AF7-DE96-4ADA-808E-6BEF6741A600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FECF7AF7-DE96-4ADA-808E-6BEF6741A600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FECF7AF7-DE96-4ADA-808E-6BEF6741A600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FECF7AF7-DE96-4ADA-808E-6BEF6741A600}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +106,7 @@ Global
 		{D770ACCD-C2CF-49E3-BF3F-597F1297EB42} = {ABF1C711-D775-48C8-8182-F30B2A0AB4DC}
 		{47A69BB7-0B76-41B3-9FB4-36C4B6578447} = {ABF1C711-D775-48C8-8182-F30B2A0AB4DC}
 		{BED2744F-A931-433B-B860-E6FDD531DE58} = {ABF1C711-D775-48C8-8182-F30B2A0AB4DC}
+		{FECF7AF7-DE96-4ADA-808E-6BEF6741A600} = {ABF1C711-D775-48C8-8182-F30B2A0AB4DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB361F5D-A586-489F-BE2A-9BA764BA63B1}
